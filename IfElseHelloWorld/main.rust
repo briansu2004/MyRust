@@ -1,8 +1,7 @@
 fn main() {
-    let _ = print!("hello "); // Print "hello " without a newline
-    if true {
-        println!("hello "); // Print "hello " with a newline
+    if {println!("hello "); false} {
+        println!("hello ");
     } else {
-        println!("world"); // Print "world" with a newline
+        println!("world");
     }
 }
